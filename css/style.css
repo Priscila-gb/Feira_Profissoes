@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Fredoka+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    overflow-x: hidden;
+}
+.titulo-branco{
+    font-family: 'Fredoka One', cursive;
+    font-weight: 400;
+    font-size: 40px;
+    color: #FEFAE0;
+    padding: 20px;
+    padding-bottom: 2px;
+}
+.subtitulo-branco{
+	font-family: 'Fredoka One', cursive;
+    font-weight: 400;
+    font-size: 25px;
+    color: #FEFAE0;
+    padding-left: 10px;
+}
+.subtitulo-preto{
+	font-family: 'Fredoka One', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+    padding-left: 10px;
+}
+.texto-branco{
+	font-family: 'Fredoka', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FEFAE0;
+    padding: 20px;
+}
+.texto-preto{
+	font-family: 'Fredoka', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+    padding: 20px;
+}
+#titulo_pag1{
+    font-family: 'Fredoka One', cursive;
+    color: #FEFAE0;
+    font-weight: 500px;
+    font-size: 80px;
+}
+#subtitulo_pag1{
+    font-family: 'Fredoka', sans-serif;
+    color: #A24502;
+    font-weight: 400px;
+    font-size: 50px;
+}
+
+.navbar{
+    background-color: transparent;
+    position: fixed;
+    z-index: 20;
+}
+.collapse{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+.main{
+    background-color: #AF7D41;
+    height: 100vh;
+    width: 100%;
+}
+.main h1{
+    font-family: 'Fredoka One', cursive;
+    color: #FEFAE0;
+    font-weight: 500px;
+    font-size: 80px;
+}
+.main h3{
+    font-family: 'Fredoka', sans-serif;
+    color: #A24502;
+    font-weight: 400px;
+    font-size: 50px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+.accordion{
+    height: 100vh;
+    width: 100%;
+    background-color: #FEFAE0;
+}
+.accordion p{
+    padding: 10px;
+}
+.card-header{
+    background-color: #AF7D41;
+}
+.btn{
+    color: #FEFAE0;
+}
+#perfil h3{
+    font-family: 'Fredoka', sans-serif;
+    font-size: 10px;
+    color: #FEFAE0;
+    padding: 20px;
+}
+#sobre{
+    background-color: #595D2B;
+    height: 100vh;
+    width: 100%;
+}
+.container{
+    padding-top: 70px;
+}
+.alert{
+    background-color: #FEFAE0;
+}
+.itens_sobre{
+    display: flex;
+    flex-direction: row;
+}
+#enem{
+    background-color: #FEFAE0;
+    height: 100vh;
+    width: 100%;
+}
+.card-body{
+    display: flex;
+    flex-direction: row;
+}
+#cursos{
+    background: url('../imgs/carrosel2.jpeg');
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.card-body{
+    display: flex;
+    justify-content: center;
+}
+#grade{
+    background-color: #595D2B;
+    height: 100vh;
+    width: 100%;
+}
+#area{
+    background-color: #FEFAE0;
+    height: 100vh;
+    width: 100%;
+}
+#salario{
+    background-color: #FEFAE0;
+    height: 100vh;
+    width: 100%;
+}
+#cr{
+    background-color: #BC8F8F;
+    height: 100vh;
+    width: 100%;
+}
+#video{
+    background-color: #0F3113;
+    height: 100vh;
+    width: 100%;
+}
