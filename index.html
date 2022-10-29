@@ -19,7 +19,7 @@
     <div class="wrapper">
           <section class="main">
             <!--Nav-->
-            <ul class="navbar nav">
+            <ul class="navbar nav m-3 p-1">
               <li class="nav-item">
                   <a class="nav-link" href="#perfil">Perfil</a>
               </li>
@@ -31,6 +31,9 @@
               </li>
               <li class="nav-item">
                   <a class="nav-link" href="#cursos">Cursos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#universidades">Universidades</a>
               </li>
               <li class="nav-item">
                   <a class="nav-link" href="#grade">Grade Curricular</a>
@@ -55,107 +58,130 @@
             <!--Nav-->
 
             <!--inico-->
-            <div class="container py-auto px-5 p-5 pb-5">
-                <div class="row pb-5 px-5 p-3" style="display: flex; justify-content: center;">
-                <div class="row-lg-12 pt-4 text-center">
-                  <h1>Engenharia</h1>
-                  <h1>Ambiental</h1>
-                  <h3>Saiba tudo sobre!</h3>
-                </div>
-                  <img src="img/inicio.png" alt="moça no parque" class="pt-5" height="350px">
-                </div>
+            <div class="media m-3 p-5">             
+              <div class="media-body">
+                <h1 class="mt-2">Engenharia <br>Ambiental</h1>
+                <h3 class="m-0">Saiba tudo sobre o curso!</h3><hr>
+              </div>
+                <img class="align-self-center mr-3" src="img/inicio.png" alt="moça no parque" height="350px">
             </div>
             <!--inicio-->
           </section>
 
           <section id="perfil">
-            <h4 class="titulo pt-2 pb-3 text-center">Perfil do engenheiro ambiental</h4>
-            <p class="texto px-5">
-              Como iremo ver, o engenheiro ambiental pode atuar em várias linhas, tanto no setor público como no privado. Por isso, esse profissional precisa não apenas estar por dentro das tendências da Engenharia Ambiental, como também ter um perfil condizente com a área de atuação.
-              Pensando nisso, a seguir, vamos mostrar as 6 principais características que o perfil do engenheiro ambiental precisa ter para desenvolver uma carreira de sucesso.
-            </p>
-            <div class="media px-5 pt-3">
-                <div class="media-body">
-                  <h5 class=" sub mt-0">1. Interdisciplinaridade</h5>
-                  <p class="texto">O Engenheiro Ambiental precisa contar com um vasto conhecimento sobre as ciências que servem de alicerce para a Engenharia, como Matemática, Física, Química e Biologia, assim como sobre as tecnologias que auxiliam no controle ambiental. Além disso, deve ter a capacidade de atuar com outros profissionais de diferentes disciplinas.</p>
+            <h4 class="titulo pt-5 text-center">Perfil do engenheiro ambiental</h4>
+            <div class="accordion  mx-2" id="accordionExample">
+              <p class="text-center texto">
+                Como iremos ver, o engenheiro ambiental pode atuar em várias linhas, tanto no setor público como no privado. Por isso, esse profissional precisa não apenas estar por dentro das tendências da Engenharia Ambiental, como também ter um perfil condizente com a área de atuação.
+                Pensando nisso, a seguir, vamos mostrar algumas principais características que o perfil do engenheiro ambiental precisa ter para desenvolver uma carreira de sucesso. Confira!
+              </p>
+              <div class="card">
+                <div class="card-header" id="headingOne" style="background-color:#AF7D41">
+                  <h5 class="mb-0 textoP">
+                    <button class="btn btn-link badge badge-light" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="background-color:#AF7D41">
+                      Interdisciplinaridade
+                    </button>
+                  </h5>
                 </div>
-            </div>
-            <div class="media px-5">
-                <div class="media-body">
-                  <h5 class="sub pt-0">2. Visão crítica sobre aspectos sociais e políticos</h5>
-                  <p class="texto">O profissional que optar por seguir essa carreira precisará contar com uma visão crítica sobre os aspectos sociais e políticos da Engenharia. Também deverá se manter atualizado em relação aos movimentos organizados pela sociedade que abordem temáticas ambientais.</p>
+            
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                  <div class="card-body">
+                    O Engenheiro Ambiental precisa contar com um vasto conhecimento sobre as ciências que servem de alicerce para a Engenharia, como Matemática, Física, Química e Biologia, assim como sobre as tecnologias que auxiliam no controle ambiental. Além disso, deve ter a capacidade de atuar com outros profissionais de diferentes disciplinas.
+                  </div>
                 </div>
-            </div>
-            <div class="media px-5">
-                <div class="media-body">
-                  <h5 class="sub pt-0">3. Diálogo técnico-científico</h5>
-                  <p class="texto">Para se destacar na carreira, é preciso que o perfil do Engenheiro Ambiental seja capaz de dialogar de forma técnica e científica com os demais profissionais da área ambiental. Para isso, é preciso ter um domínio, inclusive, dos jargões do setor.</p>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingTwo" style="background-color:#AF7D41">
+                  <h5 class="mb-0 textoP">
+                    <button class="btn btn-link collapsed badge badge-light" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="background-color:#AF7D41">
+                      Visão crítica sobre aspectos sociais e políticos
+                    </button>
+                  </h5>
                 </div>
-            </div>
-            <div class="media px-5">
-                <div class="media-body">
-                  <h5 class="sub pt-0">4. Conhecimento sólido em ciências ambientais</h5>
-                  <p class="texto">Como esse profissional poderá trabalhar em áreas diferentes dentro da Engenharia Ambiental, é preciso que ele tenha conhecimentos e domínio sobre os fundamentos das ciências ambientais, da metodologia científica e dos recursos de informática.</p>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                  <div class="card-body">
+                    O profissional que optar por seguir essa carreira precisará contar com uma visão crítica sobre os aspectos sociais e políticos da Engenharia. Também deverá se manter atualizado em relação aos movimentos organizados pela sociedade que abordem temáticas ambientais.
+                  </div>
                 </div>
-            </div>
-            <div class="media px-5">
-                <div class="media-body">
-                  <h5 class="sub pt-0">5. Capacidade de argumentação</h5>
-                  <p class="texto">Por precisar se relacionar com profissionais de outras disciplinas para realizar o seu trabalho, o Engenheiro Ambiental deverá ter uma boa capacidade de argumentação. Assim, é importante conseguir se expressar oralmente e por escrito, de forma plenamente satisfatória.</p>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingThree" style="background-color:#AF7D41">
+                  <h5 class="mb-0 textoP">
+                    <button class="btn btn-link collapsed badge badge-light" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="background-color:#AF7D41">
+                      Diálogo técnico-científico
+                    </button>
+                  </h5>
                 </div>
-            </div>
-            <div class="media px-5">
-                <div class="media-body">
-                  <h5 class="sub pt-0">6. Gosto pelo trabalho em equipe</h5>
-                  <p class="texto">O fato de interagir com pessoas de diferentes áreas também demanda capacidade de exercer tarefas em grupo, seja grande ou pequeno. Para isso, é crucial que o perfil do Engenheiro Ambiental esteja aberto à troca de ideias, saiba receber feedbacks e entenda como abordar os colegas da melhor forma, sem desmerecer seus conhecimentos e experiências.</p>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                  <div class="card-body">
+                    Para se destacar na carreira, é preciso que o perfil do Engenheiro Ambiental seja capaz de dialogar de forma técnica e científica com os demais profissionais da área ambiental. Para isso, é preciso ter um domínio, inclusive, dos jargões do setor.
+                  </div>
                 </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingThree" style="background-color:#AF7D41">
+                  <h5 class="mb-0 textoP">
+                    <button class="btn btn-link collapsed badge badge-light" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" style="background-color:#AF7D41">
+                      Conhecimento sólido em ciências ambientais
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                  <div class="card-body">
+                    Como esse profissional poderá trabalhar em áreas diferentes dentro da Engenharia Ambiental, é preciso que ele tenha conhecimentos e domínio sobre os fundamentos das ciências ambientais, da metodologia científica e dos recursos de informática.
+                  </div>
+                </div>
+              </div>
             </div>
+      
           </section>
 
           <section id="sobre">
-            <div class="container p-3">
-            <div class="alert text-center mx-5" role="alert">
+            <div class="container pt-5">
+            <div class="alert text-center" role="alert">
                 Olá! Vamos ler um pouco sobre o curso?
             </div>
-            <div class="container py-auto px-5 pb-3">
-              <div class="row-lg-12" style="display: flex; justify-content: center;">
-              <div class="row pt-4">
+            <div class="container">
+              <div class="row">
+              <img class="align-self-center " src="img/woman.png" alt="polaroid" height="350px">
+              <div class="col pt-5">
                 <p class="texto">O curso de Engenharia Ambiental forma profissionais que atuam na análise, manejo e monitoramento de problemas ambientais urbanos e rurais. Uma de suas maiores qualidades é conseguir projetar e implantar soluções. Os engenheiros ambientais são capazes de avaliar as alterações ambientais causadas pelas atividades do homem, considerando sua dimensão, duração e natureza, bem como as possibilidades para revertê-las. Durante o curso, os alunos trabalham com sistemas, equipamentos e técnicas para entender e combater a poluição, conseguindo recuperar seus danos. No mercado de trabalho, o profissional de Engenharia Ambiental pode atuar com consultoria e projetos autônomos em órgãos ambientais governamentais, empresas ligadas ao saneamento, setores de meio ambiente de indústrias, ONGs e laboratórios de pesquisa. Os tipos de formação para o curso de Engenharia Ambiental são: bacharelado e pós-graduação.</p>
               </div>
-              </div>
-          </div>
+            </div>
+            </div>
+            </div>
           </section>
 
           <section id="enem">
-            <h4 class="titulo pt-2 pb-3 text-center">Notas de corte</h4>
+            <h4 class="titulo pt-4 pb-3 text-center">Notas de corte</h4>
             <div class="row px-5">
-                <div class="col-sm-6">
+                <div class="col-lg-4 mt-2">
                   <div class="card">
                     <div class="card-body">
                       <img src="img/sisu.png" alt="fies" class="img-fluid mx-auto d-block" height="150px">
-                      <p class="textoP card-text pt-2">O Sistema de Seleção Unificada (Sisu) é um programa do governo federal que dá acesso a diversas instituições de ensino superior públicas em todo país, por meio da nota do Enem.
-                        <br>Menor nota de corte: 628,20.
-                        <br>Maior nota de corte: 788,84</p>
+                      <p class="texto card-text pt-2">O Sistema de Seleção Unificada (Sisu) é um programa do governo federal que dá acesso a diversas instituições de ensino superior públicas em todo país, por meio da nota do Enem.
+                        <b><br>Menor nota de corte: 628,20.
+                        <br>Maior nota de corte: 788,84.</b></p>
                     </div>                    
                   </div>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-lg-4 mt-2">
                   <div class="card">
                     <div class="card-body">
                       <img src="img/prouni.png" alt="fies" class="img-fluid mx-auto d-block" height="150px">
-                      <p class="textoP card-text pt-2">O Programa Universidade Para Todos (Prouni) é um programa federal que utiliza a nota do Enem. Entretanto, suas vagas dão acesso a bolsas de estudos de 100% ou 50% em faculdades privadas.
-                        <br>Menor nota de corte: 572.10.
-                        <br>Maior nota de corte: 698.18</p>
+                      <p class="texto card-text pt-2">O Programa Universidade Para Todos (Prouni) é um programa federal que utiliza a nota do Enem. Entretanto, suas vagas dão acesso a bolsas de estudos de 100% ou 50% em faculdades privadas.
+                        <b><br>Menor nota de corte: 572.10.
+                        <br>Maior nota de corte: 698.18.</b></p>
                     </div>
                   </div>
                 </div>
-                <div class="col-sm-6 mt-2">
+                <div class="col-lg-4 mt-2">
                     <div class="card">
                       <div class="card-body">
                         <img src="img/fies.png" alt="fies" class="img-fluid mx-auto d-block" height="130px">
-                        <p class="textoP card-text pt-2">O Fundo de Financiamento Estudantil (Fies) é um programa do governo no qual os estudantes podem financiar seu curso e começar a pagar a faculdade somente depois de formado. Diversas instituições privadas aderem ao programa.
-                          <br>Nota de corte média: 533.48.
-                          <br>As notas de corte no fies variam de 450 a 686 pontos.</p>
+                        <p class="texto card-text pt-2">O Fundo de Financiamento Estudantil (Fies) é um programa do governo no qual os estudantes podem financiar seu curso e começar a pagar a faculdade somente depois de formado. Diversas instituições privadas aderem ao programa.
+                          <b><br>Nota de corte média: 533.48.
+                          <br>As notas de corte no fies variam de 450 a 686 pontos.</b></p>
                       </div>
                     </div>
                 </div>
@@ -178,17 +204,60 @@
                   <p class="texto">Portadores de diploma de nível superior nas áreas de Engenharia, Arquitetura, Gestão Empresarial ou outras relacionadas têm a possibilidade de se especializar no segmento através de uma Pós-graduação em Engenharia Ambiental. O objetivo da continuação acadêmica é capacitar o futuro especialista a desenvolver pesquisas e soluções para a melhor utilização, conservação da água e do solo, reuso e gestão de recursos naturais.</p>
                 </div>
             </div>
-            <div class="media mx-5">
-                <div class="media-body">
-                  <h5 class="sub mt-0">Faculdade</h5>
-                  <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
-                  <p>Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                </div>
-            </div>
+          </section>
+
+          <section id="universidades">
+            <h4 class="titulo pt-5 pb-3 text-center">Universidades</h4>
+            <div class="row">
+              <div class="col-lg-3">
+                  <div calss="img-usp">
+                      <a href="https://www5.usp.br/ensino/graduacao/cursos-oferecidos/engenharia-ambiental/" target="_blank">
+                      <img src="img/usp.png" alt="USP" height="200px">
+                      </a>
+                  </div>
+              </div>
+              <div class="col-lg-3">
+                  <div class="img-ufpr">
+                      <a href="http://www.ambiental.ufpr.br/portal/graduacao/" target="_blank">
+                      <img src="img/ufpr.png" alt="UFPR" height="200px">
+                      </a>
+                  </div>
+              </div>
+              <div class="col-lg-3">
+                  <div class="img-unicamp">
+                      <a href="https://www.ft.unicamp.br/pt-br/graduacao/cursos/ea" target="_blank">
+                      <img src="img/unicamp.png" alt="Unicamp" height="160px">
+                      </a>
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-lg-3">
+                  <div class="img-ufrj">
+                      <a href="https://siga.ufrj.br/sira/repositorio-curriculo/5E9E6A60-92A4-F716-0070-3FAE7F5FC428.html" target="_blank">
+                      <img src="img/ufrj.png" alt="UFRJ" height="150px">
+                      </a>
+                  </div>
+              </div>
+              <div class="col-lg-3">
+                  <div class="img-ufmg">
+                      <a href="https://ufmg.br/cursos/graduacao/2400/91515#:~:text=Sobre%20o%20curso&text=O%20curso%20busca%20o%20equil%C3%ADbrio,operar%20tecnologias%20de%20controle%20ambiental" target="_blank">
+                      <img src="img/ufmg.png" alt="UFMG" height="100px">
+                      </a>
+                  </div>
+              </div>
+              <div class="col-lg-3">
+                  <div class="img-cs">
+                      <a href="https://www.cruzeirodosulvirtual.com.br/graduacao/engenharia-ambiental/" target="_blank">
+                      <img src="img/cru.png" alt="Cruzeiro do Sul" height="250px">
+                      </a>
+                  </div>
+              </div>
+          </div>
           </section>
 
           <section id="grade">
-            <h4 class="titulo pt-2 pb-3 text-center">Grade Curricular</h4>
+            <h4 class="titulo pt-5 pb-3 text-center">Grade Curricular</h4>
             <p class="texto px-5 pb-2">Grade Curricular é o conjunto de matérias que o aluno estudará durante o curso. Veja abaixo um exemplo de grade curricular para o curso de Engenharia Ambiental em uma de nossas faculdades parceiras.</p>
                 <div class="row">
                     <div class="col-sm-6">
@@ -217,7 +286,7 @@
           </section>
 
           <section id="area">
-            <h4 class="titulo pt-3 pb-3 text-center">Áreas que o engenheiro ambinetal pode atuar</h4>
+            <h4 class="titulo pt-5 pb-3 text-center">Áreas que o engenheiro ambiental pode atuar</h4>
             <div class="container">
                 <div class="card" style="background-color: #AF7D41;">
                   <div class="card-body" style="background-color: #AF7D41; color: #FFF">
@@ -248,21 +317,21 @@
           </section>
 
           <section id="salario">
-            <h4 class="titulo pt-3 text-center">Salário</h4>
-            <div class="row px-5 py-5">
-                <div class="col-sm-6">
+            <h4 class="titulo pt-5 text-center">Salário</h4>
+            <div class="row px-5 py-3">
+                <div class="col-sm-6 mt-2">
                   <div class="card">
                     <div class="card-body">
                       <img src="img/salario.png" alt="fies" class="mx-auto d-block" height="150px">
-                      <p class="textoP card-text">O Tecnólogo em Meio Ambiente ganha no Brasil, em média, R$ 5.676,80, segundo dados do Cadastro Geral de Empregados e Desempregados (Caged). Esse salário, no entanto, pode apresentar variações dependendo da região do país, empresa contratante e tempo de experiência.</p>
+                      <p class="texto card-text">O Tecnólogo em Meio Ambiente ganha no Brasil, em média, R$ 5.676,80, segundo dados do Cadastro Geral de Empregados e Desempregados (Caged). Esse salário, no entanto, pode apresentar variações dependendo da região do país, empresa contratante e tempo de experiência.</p>
                     </div>
                   </div>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-6 mt-2">
                   <div class="card">
                     <div class="card-body">
                       <img src="img/salario2.png" alt="fies" class="mx-auto d-block" height="150px">
-                      <p class="textoP card-text">O Engenheiro Ambiental ganha no Brasil, em média, R$ 10.367,67, segundo dados do Cadastro Geral de Empregados e Desempregados (Caged). Esse salário, no entanto, pode apresentar variações dependendo da região do país, empresa contratante e tempo de experiência.</p>
+                      <p class="texto card-text">O Engenheiro Ambiental ganha no Brasil, em média, R$ 10.367,67, segundo dados do Cadastro Geral de Empregados e Desempregados (Caged). Esse salário, no entanto, pode apresentar variações dependendo da região do país, empresa contratante e tempo de experiência.</p>
                     </div>
                   </div>
                 </div>
@@ -270,11 +339,11 @@
           </section>
 
           <section id="cr" class="p-5">
-            <div class="alert text-center mx-5" role="alert">
+            <div class="alert text-center" role="alert">
                 Você sabe qual é o conselho federal dos engenheiros Ambientais?
             </div>
-            <div class="media p-5">
-                <div class="media-body">
+            <div class="media">
+                <div class="media-body border border-dark p-3">
                   <h5 class="sub p-0">CONFEA</h5>
                   <p class="texto">O Conselho Federal de Engenharia e Agronomia, (CONFEA), é a instância superior da fiscalização do exercício profissional da Engenharia e da Agronomia. Criada em 1966, a entidade tem como uma das principais funções examinar e decidir em última instância os assuntos relativos ao exercício das profissões de Engenharia e Agronomia, podendo anular qualquer ato que não estiver de acordo com a legislação vigente. Até 2010 o Conselho também regia assuntos voltados a atuação de profissionais da Arquitetura e Urbanismo, porém, a categoria deixou de ser responsabilidade do conselho com a criação do Conselho de Arquitetura e Urbanismo (CAU).
                   <br>Também cabe à instituição baixar e fazer publicar as resoluções previstas para regulamentação e execução da presente Lei, e, ouvidos os Conselhos Regionais, resolver os casos omissos. O CONFEA conta com o suporte de 27 Conselhos Regionais, um responsável por cada Unidade Federativa do País e outro pelo Distrito Federal. A organização Federal precisa promover, ao menos uma vez por ano, reuniões de representantes dos Conselhos Regionais e Federal do sistema CREA/CONFEA.</p>
@@ -283,21 +352,34 @@
           </section>
 
           <section id="entrevista">
-            <h3 class="titulo mt-0 mb-3 text-center">Entrevista</h3>
-            <div class="container p-5" style="display: flex; justify-content: center;">
-                <div class="row p-5" style="background-color: #595D2B; height: 70vh; width: 70%; border-radius: 10px;">
-
-                </div>
-            </div>
+            <h4 class="titulo pt-3 text-center">Vídeo falando sobre a profissão do Engenheiro ambiental</h4>
+            <center><iframe width="800" height="400" src="https://www.youtube.com/embed/Wkb0NmxYH48" title="Engenheiro ambiental: Saiba um pouco sobre essa profissão." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
           </section>
 
           <section id="news">
 
           </section>
           
-          <div class="footer container">
-
+          <section id="fotter">
+          <div class="container">
+            <div class="row p-5 text-center">
+              <div class="col">
+                <p class="texto">
+                  Aluna: Priscila Gonzaga Barbosa<br>
+                  Orientadores: Professor Frederico Barbosa Muniz e Professora Paloma dos Santos
+                </p>
+              </div>
+              <div class="col">
+                <a href="https://github.com/Priscila-gb" target="_blank">
+                <img src="img/github.png" alt="github" height="60px"><br>
+                </a>
+                <a href="https://www.linkedin.com/in/priscila-gonzaga-barbosa-823401225/" target="_blank">
+                <img src="img/linkedin.png" alt="linkedin" height="70px">
+                </a>
+              </div>
+            </div>
           </div>
+          </section>
     </div>
 
 </body>

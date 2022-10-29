@@ -9,11 +9,14 @@
 body{
     overflow-x: hidden;
 }
+.wrapper{
+    background-color: #FFFACD;
+}
 .titulo{
     font-family: 'Fredoka One', cursive;
     font-weight: 400;
     font-size: 40px;
-    color: #FEFAE0;
+    color: #000;
     padding: 20px;
     padding-bottom: 2px;
 }
@@ -21,75 +24,133 @@ body{
 	font-family: 'Fredoka One', cursive;
     font-weight: 400;
     font-size: 25px;
-    color: #FEFAE0;
+    color: #000;
     padding-left: 10px;
 }
 .texto{
 	font-family: 'Fredoka', sans-serif;
     font-weight: 400;
     font-size: 20px;
-    color: #FEFAE0;
-    padding: 20px;
+    color: #000;
+    
 }
-.textoP{
+.textoB{
 	font-family: 'Fredoka', sans-serif;
     font-weight: 400;
     font-size: 20px;
-    color: #000;
-    padding: 20px;
+    color: #FEFAE0;
 }
 .navbar{
-    background-color: #AF7D41;
+    background-color: #606c38;
+    z-index: 3;
+    width: 96vw;
+    border-radius: 10px;
 }
 .collapse{
     display: flex;
     justify-content: space-between;
 }
 .nav-link{
-    color: #FEFAE0;
+    color: #000;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 20px;
 }
 .alert{
     background-color: #FEFAE0;
 }
 .main{
+    background-color: #FFFACD;
+}
+.main .media{
     background-color: #AF7D41;
+    width: 96vw;
+    border-radius: 10px;
+    display: flex;
 }
 .main h1{
     font-family: 'Fredoka One', cursive;
-    color: #FEFAE0;
+    color: #000;
     font-weight: 500px;
     font-size: 80px;
 }
 .main h3{
     font-family: 'Fredoka', sans-serif;
-    color: #A24502;
+    color: #000;
     font-weight: 400px;
     font-size: 50px;
 }
+.main hr{
+    background-color:#000;
+}
+#sobre .alert{
+    background-color: #606c38;
+    font-family: 'Fredoka', sans-serif;
+    color: #000;
+    font-size: 20px;
+}
 #perfil{
-    background-color: #AF7D41;
+    background-color: #FFFACD;
 }
 #sobre{
-    background-color: #AF7D41;
+    background-color: #FFFACD;
 }
 #enem{
-    background-color: #AF7D41;
+    background-color: #FFFACD;
+}
+#enem .card{
+    height: 455px;
+    background-color: #CD8A39;
 }
 #cursos{
-    background-color: #AF7D41;
+    background-color: #FFFACD;
+}
+#universidades{
+    background-color: #FFFACD;
+}
+#universidades .row{
+    display: flex;
+    justify-content: space-around;
+}
+#universidades .col-lg-3{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: #606c38;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    height: 200px;
+    width: 300px;
+    align-items: center;
 }
 #grade{
-    background-color: #AF7D41;
+    background-color: #FFFACD;
 }
 #area{
-    background-color: #AF7D41;
+    background-color: #FFFACD;
 }
 #salario{
-    background-color: #AF7D41;
+    background-color: #FFFACD;
+}
+#salario .card{
+    background-color: #DAA520;
 }
 #cr{
+    background-color: #FFFACD;
+}
+#cr .alert{
     background-color: #AF7D41;
+    font-family: 'Fredoka', sans-serif;
+    color: #000;
+    font-size: 20px;
+}
+#cr .media-body{
+    border-radius: 10px;
 }
 #entrevista{
+    background-color: #FFFACD;
+}
+#fotter .container{
     background-color: #AF7D41;
+    max-width: 100%;
 }
