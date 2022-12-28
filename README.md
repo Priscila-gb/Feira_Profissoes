@@ -1,2 +1,2 @@
 # Feira_Profissoes
-Trabalho escolar para a feira de profissões.
+Landing Page sobre o curso de Engenharia Ambiental feito para Feira de Profissões ETEC 2022.
